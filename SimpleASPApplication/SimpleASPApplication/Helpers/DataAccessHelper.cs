@@ -28,7 +28,6 @@ namespace SimpleASPApplication.Helpers
             }
         }
 
-
         /// <summary>
         /// Insert Customer Information to database.
         /// </summary>
