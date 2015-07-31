@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.master.cs" Inherits="SimpleASPApplication.Customer.Views.Customer" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/CustomerStyle.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <form id="form1" runat="server">
+            <div id="header">
+                <span class="logo"></span>
+                <span class="title">Yon</span>
+                <span class="loginName"></span>
+            </div>
+
+            <div id="side-header">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">Widgets</a></li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="navigation">
+    
+            </div>
+
+            <div id="footer">
+            
+            </div>
+        </form>
+    </div>
+</body>
+</html>
